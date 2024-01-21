@@ -1,6 +1,6 @@
 # 📦 Streamlit App Starter Kit 
 ```
-⬆️ (Replace above with your app's name)
+Tweet hate speech detection using LSTM
 ```
 
 Description of the app ...
