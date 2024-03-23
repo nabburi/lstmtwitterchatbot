@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import string
 from nltk.stem import WordNetLemmatizer
-from keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from keras.models import load_model
 import tensorflow as tf
