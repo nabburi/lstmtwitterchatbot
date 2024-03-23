@@ -1,12 +1,15 @@
 import streamlit as st
 import pandas as pd
 import string
+import nltk 
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from keras.models import load_model
 import tensorflow as tf
 import numpy as np
+
+nltk.download('wordnet')
 
 st.set_page_config(page_title="🤗💬 hate speech detection using L")
 
