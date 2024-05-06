@@ -3,7 +3,6 @@ import pandas as pd
 import string
 import nltk 
 from nltk.stem import WordNetLemmatizer
-import tensorflow
 from tensorflow.keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from keras.models import load_model
